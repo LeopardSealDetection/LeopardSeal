@@ -1,0 +1,11 @@
+call; - place call
+sample;(tone_length);(tone_frequency); - get RTT Sample
+	sample;n;n; - use default values for tone length and frequency
+hangup; - hangup
+
+switch;number; - Switch active number
+switch;srmode; - Switch Sting ray mode
+
+print;settings; - print settings info
+print;data; - print saved data from SD card
+print;status; - print network status and switch statuses
